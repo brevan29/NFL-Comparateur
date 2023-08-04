@@ -30,7 +30,7 @@ def help_teams(team):
 
 for i in range (4):
     equipe=franchises[i][0]
-    fichiercsv="Equipes/"+equipe+".csv"
+    fichiercsv=equipe+".csv"
     fichier=open(fichiercsv, 'r')
     obj = reader(fichier)
 
