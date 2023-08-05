@@ -75,11 +75,8 @@ for i in range (4):
                 AGarder_att[0][t]=float(str(AGarder_att[0][t])[:3])
                 AGarder_def[0][t]=float(str(AGarder_def[0][t])[:3])
         else :
-            AGarder_att[0][t]=at
-            AGarder_def[0][t]=de
-        
-    AGarder_att=AGarder_att[0]
-    AGarder_def=AGarder_def[0]
+            AGarder_att[4][t]=at
+            AGarder_def[4][t]=de
         
     Attaques[equipe]=AGarder_att
     Defenses[equipe]=AGarder_def
